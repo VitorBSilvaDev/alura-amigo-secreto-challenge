@@ -35,7 +35,7 @@ Este projeto foi desenvolvido como parte de um **desafio da Alura** para pratica
 
 ## 📂 Estrutura do projeto
 
-```
+---
 challenge-amigo-secreto/
 ├── assets/            # Imagens utilizadas no layout (referenciadas no HTML)
 ├── app.js             # Lógica e interatividade
