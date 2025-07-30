@@ -1,24 +1,22 @@
 let listaDeAmigos = [];
 let amigo = ";";
 let indice = 0;
-let amigoEscolhido = 0;
-// 1 - Função adicionar amigo 
+let amigoEscolhido = "";
 
+// 1 - Função adicionar amigo 
 function adicionarAmigo(){
     amigo = document.querySelector('input').value;
-    console.log(amigo);
 
     if (amigo.trim() == ""){
         alert("Insira um nome válido");
     } else {
         listaDeAmigos.push(amigo);
         mostrarAmigos();
-        console.log(listaDeAmigos);
     }
     limparCampo();
 }
 
-// 1.2) Mostrando os elementos da lista na tela
+// 1.2 - Mostrando os elementos da lista na tela
 function mostrarAmigos(){
     let listaAmigos = document.getElementById('listaAmigos');
 
@@ -30,20 +28,21 @@ function mostrarAmigos(){
     indice++;
 }
 
+// 2.1 - Mostrando o resultado do amigo sorteado
 function mostrarResultado(){
     let resultado = document.getElementById('resultado');
-    resultado.innerHTML = listaDeAmigos[amigoEscolhido];
+    resultado.innerHTML = amigoEscolhido;
 }
 
+// 2 - Função sortear amigo
 function sortearAmigo(){
-    amigoEscolhido = parseInt(Math.random() * listaDeAmigos.length);
-    listaDeAmigos[amigoEscolhido];
+    indiceSorteado = parseInt(Math.random() * listaDeAmigos.length);
+    amigoEscolhido = listaDeAmigos[indiceSorteado];
     mostrarResultado();
-    console.log(amigoEscolhido);
-    console.log(listaDeAmigos[amigoEscolhido]);
+
 }
 
-// 1.3) Limpando o campo de input ao apertar botão
+// 1.3 - Limpando o campo de input ao apertar botão
 function limparCampo(){
     let campo = document.querySelector('input');
     campo.value = "";
