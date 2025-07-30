@@ -13,6 +13,12 @@ Este projeto foi desenvolvido como parte de um **desafio da Alura** para pratica
 * Organizar o código em funções claras e reutilizáveis
 * Práticar documentação com comentários claros e concisos
 
+## 🌐 Acesse o projeto online
+
+Você pode acessar a versão publicada do projeto através do GitHub Pages:
+
+👉 [Clique aqui para ver o projeto rodando](https://vitorbsilvadev.github.io/alura-amigo-secreto-challenge/)
+
 ---
 
 ## ✨ Funcionalidades
