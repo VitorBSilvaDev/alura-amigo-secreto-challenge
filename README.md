@@ -57,6 +57,6 @@ challenge-amigo-secreto/
 
 ## 👤 Autor
 
-Desenvolvido por [VitorBSilvaDev](https://github.com/SeuUsuario) durante o desafio de lógica de programação da [Alura](https://www.alura.com.br/).
+Desenvolvido por [VitorBSilvaDev](https://github.com/VitorBSilvaDev)) durante o desafio de lógica de programação da [Alura](https://www.alura.com.br/) do curso Oracle Next Education.
 
 
